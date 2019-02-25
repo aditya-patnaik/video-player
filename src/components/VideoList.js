@@ -23,9 +23,6 @@ export default class VideoList extends React.Component {
     constructor(props) {
         super(props);
     }
-    updateVideo = (url) => {
-        this.props.updateVideo(url);
-    }
     render() {
         return (
             <div className="video-list-container">

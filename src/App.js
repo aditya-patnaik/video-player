@@ -5,15 +5,6 @@ import VideoPlayer from "./components/VideoPlayer";
 import VideoList from './components/VideoList';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      url: ""
-    }
-  }
-  updateVideo = (url) => {
-    this.setState({url})
-  }
   render() {
     return (
       <Router>
